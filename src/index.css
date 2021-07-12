@@ -10,26 +10,43 @@ body
   {
      padding: 5%;
      margin: 1%;
-     font-size: larger;
-     opacity:0.8;
+     font-weight: bold;
+     opacity:0.9;
+     color:grey;
+     border: grey solid 2px;
   }
-.leftright p 
+.cartitem div{
+    height: 100%;}
+.cartitem p 
  {
     font-size: smaller;
-    opacity: 0.5;
+    
  }
         
-.leftright button 
+.cartitem button 
   {
-           
-  font-weight: bold;
-  font-size: x-large;
   border: none;
   color: white;
   text-align: center;
-  padding: 10px 20px;
-  border-radius: 8px;
-              
+  padding: 5% 9%;
+  border-radius: 6px;
+  margin:1%;
+  
+ }
+img{
+    
+    width: 100%;
+    max-width:130px;
+    height: auto;
   }
+button img{
+    
+    width: 100%;
+    max-width:20px;
+    height: auto;
+    
+  }
+  
+
 
 
